@@ -1,5 +1,8 @@
 module.exports = {
   verbose: true,
   collectCoverage: true,
-  setupFilesAfterEnv: ['./src/__test__/setupTest.js'],
+  setupFilesAfterEnv: ['<rootDir>/src/__test__/setupTest.js'],
+  moduleNameMapper: {
+    '\\.(styl|css)$': '<rootDir>/src/__mocks__/styleMock.js',
+  },
 };
