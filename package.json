@@ -10,6 +10,7 @@
     "lint": "eslint src/",
     "test": "jest -o",
     "test:all": "jest",
+    "test:update": "jest -- updateSnapshot",
     "test:watch": "jest --watch -o",
     "test:watch:all": "jest --watch"
   },
@@ -62,6 +63,7 @@
     "eslint-plugin-react": "^7.14.3",
     "jest": "^26.5.0",
     "prettier": "^1.19.1",
+    "react-test-renderer": "^16.14.0",
     "webpack-dev-server": "^3.9.0"
   },
   "bugs": {
